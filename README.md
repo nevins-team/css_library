@@ -2,7 +2,20 @@
 
 中文 | [English](README.md)
 
+## 明暗主题-图片切换
+
+<div>
+  <a href="./assets/hero-light.png">
+    <picture>
+      <source srcset="./assets/hero-dark.png" media="(prefers-color-scheme: dark)">
+      <img src="./assets/hero-light.png" alt="Banana Slides — Vibe your way to great slides." width="720" height="180">
+    </picture>
+  </a>
+</div>
+
 ## 项目简介
+
+update me;
 
 Whistle MCP Server 是一个基于 Model Context Protocol (MCP) 协议的 Whistle 代理管理工具，让 AI 助手能够直接操作和控制本地 Whistle 代理服务器。通过该工具，AI 可以帮助用户管理规则、分组、值，监控网络请求，以及重放和修改请求等，无需用户手动操作 Whistle 界面。它极大地简化了网络调试、接口测试和代理规则管理的流程，使用户能够通过自然语言与 AI 交互来完成复杂的网络代理配置任务。
 
